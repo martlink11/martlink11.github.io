@@ -34,6 +34,9 @@ body {
   color: goldenrod;
   transition: ease-in 0.5s;
 }
+#martin {
+  font-size: 80px;
+}
 .navegador {
   display: flex;
   justify-content: space-between;
@@ -85,4 +88,35 @@ body {
   font-size: 20px;
   transition: 0.6s;
   border-radius: 20px;
+}
+
+.about {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#about-me{
+  font-size: 80px;
+  text-align: center;
+  padding-top: 30px;
+  color: antiquewhite;
+}
+.info-personal{
+  padding: 5em;
+  margin: 50px;
+
+}
+.subT-info{
+  font-size: 45px;
+  text-align: center;
+  margin: 40px;
+  color: antiquewhite;
+}
+.parrafo-info{
+  font-size: 25px;
+  color: antiquewhite;
 }
