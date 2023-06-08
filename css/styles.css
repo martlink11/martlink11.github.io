@@ -63,6 +63,9 @@ body {
  }
  #perfil {
   border-radius: 45%;
+  width: 300px;
+  margin-top: 100px;
+
  }
 
  main {
@@ -90,9 +93,9 @@ body {
   border-radius: 20px;
 }
 
-.about {
+.fondo {
     width: 100vw;
-    height: 100vw;
+    height: 175vw;
     background-image: url(fondo1.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -119,4 +122,138 @@ body {
 .parrafo-info{
   font-size: 25px;
   color: antiquewhite;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: scale(1.1);
+}
+
+.tarjeta img {
+  width: 200px;
+  border-radius: 8px;
+ margin-left: 13%;
+ 
+
+}
+
+.tarjeta .contenido {
+  padding: 10px;
+}
+
+.tarjeta h2 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.tarjeta p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.tarjeta a {
+  font-size: 30px;
+  color: black;
+}
+
+.comentarios {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.comentarios h2 {
+  text-align: center;
+}
+
+.comentarios ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comentarios li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.agregar-comentario {
+  margin-top: 20px;
+}
+
+.agregar-comentario h3 {
+  margin-bottom: 5px;
+}
+
+.agregar-comentario textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+#btn-agregar {
+  display: block;
+  font-size: larger;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  height: 55px;
+  width: 90px;
+  border-radius: 40px;
+}
+
+#btn-agregar:hover {
+  font-size: 20px;
+  transition: 0.6s;
+  border-radius: 20px;
+  height: 60px;
+  width: 100px;
+}
+
+@keyframes bounce-out {
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  50%,
+  55% {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+}
+
+.bounce-out {
+  animation: bounce-out 0.8s;
+}
+
+#skills  {
+  margin-top: 300px;
+}
+
+#proyects  {
+  margin-top: 300px;
+}
+
+#comments  {
+  margin-top: 300px;
 }

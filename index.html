@@ -7,6 +7,7 @@
   <title>Portafolio Personal</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <script src="script.js"></script>
 </head>
 <body>
   <div class="hero">
@@ -14,38 +15,129 @@
     <nav class="navegador">
       <h2 id="titulo">Martin Alvarez</h2>
     <ul class="menu">
-      <li><a href="#">Portafolio</a></li>
-      <li><a href="#">Sobre Mi</a></li>
-      <li><a href="#">Proyectos</a></li>
-      <li><a href="#">Contacto</a></li>
+      <li><a href="#about-me">Sobre mi</a></li>
+      <li><a href="#skills">Tecnologias</a></li>
+      <li><a href="#proyects">Proyectos</a></li>
+      <li><a href="#comments">Contacto</a></li>
     </ul>
   </nav>
     </header>
     <main class="main">
       <div class="info-contenido">
-        <img src="./img/i.jpeg" alt="" id="perfil">
+        <img src="./img/Me.jpeg" alt="" id="perfil">
         <h1 id="martin"> Hola! yo soy <span>Martin</span> Alvarez</h1>
-        <p class="parrafo-info">Soy un estudiante de desarrollo web y fotografia, si te interesa puedes descargar mi <span>CV</span> para conocer mas</p>
-        <a download="Curriculum Vitae.pdf" href="Curriculum Vitae.pdf"><button  id="descarga">Descargar Curriculum</button></a>
+        <p class="parrafo-info">Soy un estudiante de desarrollo web, si te interesa puedes descargar mi <span>CV</span> para conocer mas</p>
+        <a download="Martin Alvarez CV IT.pdf" href="Martin Alvarez CV IT.pdf"><button  id="descarga">Descargar Curriculum</button></a>
       </div>
     </main>
   </div>
-  <div class="about">
-      <h2 id="about-me">Sobre Mi</h2>
-      <div class="info-personal">
-      <h2 class="subT-info">¿Quien Soy?</h2>
-        <p class="parrafo-info">Soy Martin un joven de 21 años que se encuentra iniciando en el ambito de la programacion. 
-            Luego de haberme graduado de la secundaria me encontraba en un momento en el cual no sabia cual seria mi siguiente paso asi que decidi iniciar en la facultad de ciencias ya que creia que seria lo que me gustaria, pero al paso de los meses me fui dando cuenta que no me gustaba lo suficiente como para dedicar mi vida a elllo. A su ves me habia inscripto a el curso de JAP(Jovenes a Programar) porque me lo habian recomendado y me resultaba curioso.
-            Con el paso del tiempo logre darme cuenta que era algo que me gustaba mucho mas de lo que esperaba, esto desperto una pasion en mi interior que me desconocia y desde ese momento sigo redescubriendome.
-        </p>
-        <h2 class="subT-info">¿Como Soy?</h2>
-        <p class="parrafo-info">Me considero una persona muy tranquila y entusiasta que es timida en entornos donde no tiene la suficiente confianza pero que tiene muchas facilidades para la comunicacion cuando se encuentra en confianza; ademas de eso me considero alguien que disfruta el trabajo en equipo pero tambien le gusta el trabajo en lo individual.</p>
-        <h2 class="subT-info">¿Por que elegi la programacion?</h2>
-        <p class="parrafo-info">Elegi la programacion debido a que siempre tuve ciertas facilidades con la informatica, una tendencia a resolver problemas que requieran del esfuerzo mental pero sobre todo porque la programacion abre infinitas posibilidades a la creatividad.
-            Aunque nunca fue mi primera opcion y por muchos años no lo tuve entre mis posibilidades, con el paso del tiempo fui descubriendo que si me gustaba.
-        </p>
+  <div class="fondo">
+    <section>
+      <div class="">
+        <h2 id="about-me">Sobre Mi</h2>
+        <div class="info-personal">
+        <h2 class="subT-info">¿Quien Soy?</h2>
+          <p class="parrafo-info">Soy Martin un joven estudiante que inicio hace poco en el mundo de la programacion y que tiene como objetivo seguir aprendiendo para crecer a nivel de conocimiento y poder obtener mi primera experiencia en el rubro de la programacion.
+          </p>
+          <h2 class="subT-info">¿Como Soy?</h2>
+          <p class="parrafo-info">Me considero una persona apasionada por la tecnologia y la gran variedad de herramientas y posibilidades que nos da, ademas soy alguin tranquilo que le gusta trabajar en equipo aunque sea algo timido al principio.</p>    
+        </div>
+    </section>
+    <section id="skills">
+      <div>
+        <h2 class="subT-info">Tecnologias aprendidas</h2>
+        <div class="tarjetas">
+          <div class="tarjeta">
+            <img src="img/Tecnologias/JS.png" alt="Imagen de la tarjeta 1">
+            <div class="contenido">
+              <h2>JavaScript</h2>
+            </div>
+          </div>
+        
+          <div class="tarjeta">
+            <img src="img/Tecnologias/html.png" alt="Imagen de la tarjeta 2">
+            <div class="contenido">
+              <h2>HTML</h2>
+            </div>
+          </div>
+        
+          <div class="tarjeta">
+            <img src="img/Tecnologias/css.png" alt="Imagen de la tarjeta 3">
+            <div class="contenido">
+              <h2>CSS</h2>
+            </div>
+          </div>
+        </div>
+        <div class="tarjetas">
+          <div class="tarjeta">
+            <img src="img/Tecnologias/boostrap.jpg" alt="Imagen de la tarjeta 4">
+            <div class="contenido">
+              <h2>Bootstrap</h2>
+            </div>
+          </div>
+        
+          <div class="tarjeta">
+            <img src="img/Tecnologias/node.png" alt="Imagen de la tarjeta 5">
+            <div class="contenido">
+              <h2>NodeJS</h2>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
+    <section id="proyects">
+      <div>
+        <h2 class="subT-info">Proyectos</h2>
+      </div>
+      <div class="tarjetas">
+        <div class="tarjeta">
+          <img src="img/Proyectos/proyectoEcommerce.png" alt="Imagen del Proyecto E-Commerce">
+          <div class="contenido">
+            <h2>JAP E-Commerce</h2>
+            <p >Proyecto final hecho para el Curso de desarrollo web</p>
+            <label>Para mas info , link de repositorio en GitHub : </label><a href="https://github.com/martlink11/Proyecto-E-comerce" target="_blank">AQUI</a>
+          </div>
+        </div>
+        <div class="tarjeta">
+          <img src="img/Proyectos/proyectojapflix.png" alt="Imagen del Proyecto JAPFLIX">
+          <div class="contenido">
+            <h2>JAPFLIX</h2>
+            <p >Proyecto cgrupal con compañeros del curso en el cual desarrollamos un buscador de peliculas</p>
+            <label>Para mas info , link de repositorio en GitHub : </label><a href="https://github.com/nataliasotelo/JAPFLIX" target="_blank">AQUI</a>
+          </div>
+        </div>
+        <div class="tarjeta">
+          <img src="img/Proyectos/proyectoDesarrollo.png" alt="Imagen del Proyecto En Desarrollo">
+          <div class="contenido">
+            <h2>Futuro Proyecto</h2>
+            <p>En Desarrollo</p>
+          </div>
+        </div>
+      </div>
+        
+    </section>
+    <section id="comments">
+      <div>  
+        <div>
+          <div class="comentarios">
+            <h2 class="subT-info">Comentarios</h2>
+            <ul id="lista-comentarios">
+              <li>Comentario Random</li>
+            </ul>
+          
+            <div class="agregar-comentario">
+              <h3 >Agregar Comentario</h3>
+              <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+              <button id="btn-agregar">Agregar</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
   </div>
+  
   
 </body>
 </html>
